@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 10px;
+}
+
+body {
+    background-color: #e0dcd0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    background-color: #d8a300;
+    align-items: end;
+    justify-content: space-between;
+}
+
+#nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+}
+
+#nav-bar li {
+    list-style: none;
+    text-align: center;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #96000e;
+    font-size: 2.5rem;
+}
+
+#header-img {
+    width: 200px;
+}
+
+#locations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 2rem;
+}
+
+#locations img {
+    max-width: 100%;
+}
+
+table {
+    color: #96000e;
+    margin: auto;
+    padding: 20px;
+}
+
+tr {
+    height: 20px;
+    font-size: 2rem;
+}
+
+th {
+    border-bottom: 2px solid #053266;
+    font-size: 2.5rem;
+}
+
+td {
+    width: 100px;
+}
+
+.item {
+    text-align: left;
+}
+
+.price {
+    text-align: right;
+}
+
+#menu {
+    width: 600px;
+    margin: auto;
+}
+
+#contact {
+    text-align: center;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#email {
+    width: 400px;
+    margin: auto;
+}
+
+@media screen (min-size: 1000px) { 
+    table {
+        background-image: none;
+        background-color: red;
+    }
+}
